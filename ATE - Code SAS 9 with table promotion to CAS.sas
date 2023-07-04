@@ -190,9 +190,14 @@ Customer_Gender*(
 
 RUN;
 
+
 proc casutil;
    droptable casdata="FRAYUP_ETUDECLIENTSJOINTURE" incaslib="SWEE" quiet;
 run;
+
+data SWEE.FRAYUP_ETUDECLIENTSJOINTURE;
+set WORK.JOINTURE_CLIENTS;
+run; 
 
 data SWEE.FRAYUP_ETUDECLIENTSJOINTURE(promote=YES);
 set WORK.JOINTURE_CLIENTS;

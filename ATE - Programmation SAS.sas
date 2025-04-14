@@ -24,7 +24,7 @@ run;
 
 /*Chargement d'une table SAS en mémoire et promotion*/ 
 proc casutil;
-	load data=work.HMEQ_XY 
+	load data=sqldatabase.HMEQ_XY 
 	outcaslib="CASUSER" casout="HMEQ_XY" promote;
 run;
 

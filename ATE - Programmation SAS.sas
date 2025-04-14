@@ -22,9 +22,21 @@ proc casutil incaslib="CASUSER";
    list files;
 run;
 
-/*Chargement d'une table*/ 
+/*Chargement d'une table SAS en mémoire et promotion*/ 
+proc casutil;
+	load data=work.HMEQ_XY 
+	outcaslib="CASUSER" casout="HMEQ_XY" promote;
+run;
+
+/*Chargement d'une table CAS*/ 
 proc casutil;
 	load casdata="HMEQ_XY.sashdat" incaslib="CASUSER" 
+	outcaslib="CASUSER" casout="HMEQ_XY";
+run;
+
+/*Promotion d'une table CAS*/ 
+proc casutil;
+	promote casdata="HMEQ_XY" incaslib="CASUSER" 
 	outcaslib="CASUSER" casout="HMEQ_XY";
 run;
 

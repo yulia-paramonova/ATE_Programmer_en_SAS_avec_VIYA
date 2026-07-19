@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-07-19T12:54:48.354126Z",
+  "_captured_run_id": "r_5bdf3438a9a743989bbf6a23ec7dc146",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "Read 8 rows from DATALINES.",
+    "Wrote WORK.JOINTURE_CLIENTS (8 rows, 4 columns).",
+    "PROC TABULATE"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

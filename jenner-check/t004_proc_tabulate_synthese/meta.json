@@ -1,0 +1,7 @@
+{
+  "bundle": "t004_proc_tabulate_synthese",
+  "source_file": "ATE - Code SAS 9 with table promotion to CAS.sas",
+  "source_blob_sha": "3837046228fd9eabb002eba60f382f11ee2ffca2",
+  "source_commit": "fa463dc2690dbea02786074195ce87116c76b4da",
+  "notes": "The PROC TABULATE step cross-tabulating SUM_Total_Retail_Price and nb_commandes by age (rows) and Customer_Gender (columns) with row/column totals, kept as written. WORK.JOINTURE_CLIENTS is supplied as an 8-row inline mock in autoexec.sas with the columns TABULATE reads."
+}

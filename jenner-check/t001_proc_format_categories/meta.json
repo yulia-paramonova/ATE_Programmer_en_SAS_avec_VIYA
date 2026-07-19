@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_proc_format_categories",
+  "source_file": "ATE - Code SAS 9 with table promotion to CAS.sas",
+  "source_blob_sha": "3837046228fd9eabb002eba60f382f11ee2ffca2",
+  "source_commit": "fa463dc2690dbea02786074195ce87116c76b4da",
+  "notes": "The two PROC FORMAT VALUE definitions (CAT_AGE age-bracket format and $Genre gender format) kept verbatim from the source, plus a 7-row inline DATALINES demo dataset and a PROC PRINT that applies both formats so the captured run shows the formatted category labels."
+}

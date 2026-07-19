@@ -1,0 +1,20 @@
+{
+  "_captured_at": "2026-07-19T12:51:40.059681Z",
+  "_captured_run_id": "r_18e7637306a54ddd8b80ec1b388c6e16",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "Read 8 rows from DATALINES.",
+    "Table WORK.annee_trimestre created.",
+    "Table WORK.commandes_trim created.",
+    "PROC PRINT completed: 8 observations printed, 5 variables"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

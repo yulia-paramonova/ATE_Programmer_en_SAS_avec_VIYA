@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-07-19T12:52:59.088006Z",
+  "_captured_run_id": "r_6528850410404298a4cb7fec5bc11270",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "Table WORK.join_clients created.",
+    "Table WORK.JOINTURE_CLIENTS created.",
+    "PROC PRINT completed: 5 observations printed, 8 variables"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

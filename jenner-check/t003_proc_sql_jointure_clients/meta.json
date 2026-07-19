@@ -1,0 +1,7 @@
+{
+  "bundle": "t003_proc_sql_jointure_clients",
+  "source_file": "ATE - Code SAS 9 with table promotion to CAS.sas",
+  "source_blob_sha": "3837046228fd9eabb002eba60f382f11ee2ffca2",
+  "source_commit": "fa463dc2690dbea02786074195ce87116c76b4da",
+  "notes": "The FULL JOIN uniting the two customer sources (join_clients) and the INNER JOIN attaching quarterly order aggregates plus the intck('year', birthdate, today(), 'c') - 15 age derivation (JOINTURE_CLIENTS), kept as written including the 'type'n / 'group'n name literals. The external inputs (customers1 from XLS, customers2 from a fixed-width txt, commandes_trim from ETUDE.ORDERS) are supplied as small inline mocks in autoexec.sas. The age column depends on today() so it is intentionally not pinned; only the table-created notes and PROC PRINT row/column counts are."
+}

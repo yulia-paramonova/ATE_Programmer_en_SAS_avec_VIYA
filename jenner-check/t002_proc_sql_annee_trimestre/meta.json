@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_proc_sql_annee_trimestre",
+  "source_file": "ATE - Code SAS 9 with table promotion to CAS.sas",
+  "source_blob_sha": "3837046228fd9eabb002eba60f382f11ee2ffca2",
+  "source_commit": "fa463dc2690dbea02786074195ce87116c76b4da",
+  "notes": "The two PROC SQL steps that build annee_trimestre (deriving order year via year() and quarter via qtr()) and commandes_trim (SUM of quantity and retail price GROUP BY customer/year/quarter), kept as written. The external BASE library ETUDE.ORDERS is replaced by an 8-row inline mock in autoexec.sas with the same columns and types; a PROC PRINT shows the aggregated result."
+}

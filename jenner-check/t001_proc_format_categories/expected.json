@@ -1,0 +1,20 @@
+{
+  "_captured_at": "2026-07-19T12:50:27.740851Z",
+  "_captured_run_id": "r_7fc12258045d4ed7b0c478f0e670a371",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "FORMAT CAT_AGE defined (3 ranges).",
+    "FORMAT $Genre defined (2 ranges).",
+    "Read 7 rows from DATALINES.",
+    "PROC PRINT completed: 7 observations printed, 2 variables"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

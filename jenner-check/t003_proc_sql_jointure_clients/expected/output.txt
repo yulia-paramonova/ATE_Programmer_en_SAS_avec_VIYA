@@ -1,0 +1,9 @@
+
+  Obs  Customer ID         Customer Name        age_group  age  annee_commande  trimestre_commande  nb_commandes  SUM_Total_Retail_Price
+-----  -----------  --------------------  ---------------  ---  --------------  ------------------  ------------  ----------------------
+    1        11001  Dubois Marie          30-60 ans         21            2022                   1             2                 $109.90
+    2        11001  Dubois Marie          30-60 ans         21            2022                   2             1                  $54.90
+    3        11002  Martin Paul           30-60 ans         36            2022                   3             3                 $330.00
+    4        11003  Bernard Claire        Moins de 30 ans   13            2023                   1             5                 $750.00
+    5        11004  Petit Jean            Plus de 60 ans    53            2023                   3             4                 $480.00
+
